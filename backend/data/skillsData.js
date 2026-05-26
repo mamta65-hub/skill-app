@@ -1,0 +1,27 @@
+const skillsBank = [
+  { name: 'Machine Learning',    category: 'Technical',   trend: '92%', tags: ['technical', 'ai', 'data'] },
+  { name: 'React.js',            category: 'Technical',   trend: '88%', tags: ['technical', 'web', 'frontend'] },
+  { name: 'Node.js',             category: 'Technical',   trend: '85%', tags: ['technical', 'web', 'backend'] },
+  { name: 'Python',              category: 'Technical',   trend: '95%', tags: ['technical', 'ai', 'data'] },
+  { name: 'Docker & Kubernetes', category: 'Technical',   trend: '80%', tags: ['technical', 'devops'] },
+  { name: 'MongoDB',             category: 'Technical',   trend: '78%', tags: ['technical', 'backend', 'database'] },
+  { name: 'GraphQL',             category: 'Technical',   trend: '74%', tags: ['technical', 'web', 'backend'] },
+  { name: 'TypeScript',          category: 'Technical',   trend: '87%', tags: ['technical', 'web', 'frontend'] },
+  { name: 'UI/UX Design',        category: 'Design',      trend: '83%', tags: ['design', 'creative'] },
+  { name: 'Figma',               category: 'Design',      trend: '81%', tags: ['design', 'frontend'] },
+  { name: 'Motion Graphics',     category: 'Design',      trend: '70%', tags: ['design', 'creative', 'video'] },
+  { name: 'Brand Identity',      category: 'Design',      trend: '68%', tags: ['design', 'marketing'] },
+  { name: 'Digital Marketing',   category: 'Business',    trend: '86%', tags: ['business', 'marketing'] },
+  { name: 'Product Management',  category: 'Business',    trend: '84%', tags: ['business', 'management'] },
+  { name: 'SEO Optimization',    category: 'Business',    trend: '77%', tags: ['business', 'marketing', 'web'] },
+  { name: 'Content Strategy',    category: 'Business',    trend: '72%', tags: ['business', 'marketing', 'creative'] },
+  { name: 'Data Analysis',       category: 'Data',        trend: '91%', tags: ['data', 'technical'] },
+  { name: 'Power BI',            category: 'Data',        trend: '79%', tags: ['data', 'business'] },
+  { name: 'SQL',                 category: 'Data',        trend: '82%', tags: ['data', 'technical', 'database'] },
+  { name: 'Data Visualization',  category: 'Data',        trend: '80%', tags: ['data', 'design'] },
+  { name: 'Public Speaking',     category: 'Soft Skills', trend: '75%', tags: ['softskills', 'communication'] },
+  { name: 'Leadership',          category: 'Soft Skills', trend: '78%', tags: ['softskills', 'management'] },
+  { name: 'Critical Thinking',   category: 'Soft Skills', trend: '76%', tags: ['softskills'] },
+];
+
+module.exports = skillsBank;
